@@ -9,7 +9,6 @@ app.get('/events', async ()=> {
     return events
 })
 
-
 app.listen({
     port: 3333,
 }).then(()=> {
